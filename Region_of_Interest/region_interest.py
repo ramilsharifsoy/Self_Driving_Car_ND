@@ -18,9 +18,9 @@ region_select = np.copy(image)
 # Keep in mind the origin (x=0, y=0) is in the upper left in image processing
 # Note: if you run this code, you'll find these are not sensible values!!
 # But you'll get a chance to play with them soon in a quiz 
-left_bottom = [0, 539]
-right_bottom = [900, 300]
-apex = [400, 0]
+left_bottom = [140, 540]
+right_bottom = [800, 540]
+apex = [470, 320]
 
 # Fit lines (y=Ax+B) to identify the  3 sided region of interest
 # np.polyfit() returns the coefficients [A, B] of the fit
