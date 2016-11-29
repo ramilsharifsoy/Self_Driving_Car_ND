@@ -13,9 +13,9 @@ xsize = image.shape[1]
 color_select = np.copy(image)
 
 # Define our color selection criteria
-red_threshold = 0
-green_threshold = 0
-blue_threshold = 0
+red_threshold = 200
+green_threshold = 200
+blue_threshold = 200
 rgb_threshold = [red_threshold, green_threshold, blue_threshold]
 
 # Use a "bitwise OR" to identify pixels below the threshold
