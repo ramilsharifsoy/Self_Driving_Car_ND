@@ -24,9 +24,13 @@ import cv2
 
 
 # Read in and grayscale the image
+<<<<<<< Updated upstream
 # Note: in the previous example we were reading a .jpg 
 # Here we read a .png and convert to 0,255 bytescale
 image = (mpimg.imread('exit_ramp.png')*255).astype('uint8')
+=======
+image = mpimg.imread('edges_exitramp.jpg')
+>>>>>>> Stashed changes
 gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
 # Define a kernel size and apply Gaussian smoothing
