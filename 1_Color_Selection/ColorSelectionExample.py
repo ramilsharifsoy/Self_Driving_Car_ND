@@ -26,3 +26,4 @@ color_select[thresholds] = [0,0,0]
 
 # Display the image                 
 plt.imshow(color_select)
+plt.show()
