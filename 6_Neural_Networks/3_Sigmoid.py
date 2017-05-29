@@ -13,3 +13,7 @@ output = sigmoid(np.dot(inputs, weights) + bias)
 
 print('Output:')
 print(output)
+
+# sigmoid(x) = 1 /( 1 + e ** (−x))
+# The sigmoid function is bounded between 0 and 1, 
+# and as an output can be interpreted as a probability for success.

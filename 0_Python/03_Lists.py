@@ -1,4 +1,4 @@
-"""
+
 L = [123, "spam", 1.23]
 print(len(L))
 print(L[0])
@@ -19,7 +19,6 @@ print(M)
 M.reverse()
 print(M)
 
-"""
 
 N = [[1, 2, 3],
      [4 ,5 ,6],
