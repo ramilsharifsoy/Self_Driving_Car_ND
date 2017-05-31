@@ -1,6 +1,3 @@
-"""
-You need to change the Add() class below.
-"""
 
 class Node(object):
     def __init__(self, inbound_nodes=[]):
@@ -58,10 +55,6 @@ class Add(Node):
         Your code here!
         """
 
-
-"""
-No need to change anything below here!
-"""
 
 
 def topological_sort(feed_dict):
